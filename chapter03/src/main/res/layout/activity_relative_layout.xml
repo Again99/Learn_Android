@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在中间"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在水平中间"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在垂直中间"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我跟上级左边对齐"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我跟上级右边对齐"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tv_right_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我跟上级右底边对齐"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我跟上级顶部对齐"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我跟上级底部对齐"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv_center_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在中间左边"
+        android:layout_toLeftOf="@id/tv_center"
+        android:layout_alignTop="@id/tv_center"/>
+
+    <TextView
+        android:id="@+id/tv_center_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在中间右边"
+        android:layout_toRightOf="@id/tv_center"
+        android:layout_alignTop="@id/tv_center"/>
+
+    <TextView
+        android:id="@+id/tv_center_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在中间上边"
+        android:layout_above="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"/>
+
+    <TextView
+        android:id="@+id/tv_center_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="我在中间下边"
+        android:layout_below="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"/>
+
+</RelativeLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ActivityRelativeLayout"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLinearLayout"
             android:exported="false" />
         <activity
